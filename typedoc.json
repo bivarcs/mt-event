@@ -1,7 +1,7 @@
 {
   "entryPoints": [
-    "src/js/types/types.ts",
-    "src/js/parse/function.ts"
+    "src/js/MTEvent/parse.ts",
+    "src/js/MTEvent/types.ts"
   ],
   "navigationLinks": {
     "Github": "https://github.com/bivarcs/mt-event",

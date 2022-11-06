@@ -1,3 +1,3 @@
-import { parse } from "./parse/index"
+import { parse } from "./MTEvent/parse"
 
 export default parse

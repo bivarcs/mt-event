@@ -1,7 +1,7 @@
 /**
  * original event. (mouse or touch)
  */
-declare type OriginalEvent = MouseEvent | TouchEvent | PointerEvent;
+declare type OriginalEvent = MouseEvent | TouchEvent;
 /**
  * original event type.
  * Defined as:

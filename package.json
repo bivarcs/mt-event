@@ -1,6 +1,6 @@
 {
   "name": "@bivarcs/mt-event",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A minimal function to get common values from mouse and touch events.",
   "author": "bivarcs <bivarcs@gmail.com> (https://github.com/bivarcs)",
   "license": "MIT",

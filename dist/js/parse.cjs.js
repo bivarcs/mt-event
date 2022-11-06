@@ -1,4 +1,4 @@
-/*! @bivarcs/mt-event 0.0.1 | MIT | https://github.com/bivarcs/mt-event */
+/*! @bivarcs/mt-event 0.0.2 | MIT | https://github.com/bivarcs/mt-event */
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {

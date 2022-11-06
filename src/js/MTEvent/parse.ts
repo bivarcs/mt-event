@@ -1,4 +1,4 @@
-import { OriginalEvent, Type, Event } from "../types"
+import { OriginalEvent, Type, Event } from "./types"
 
 /**
  * Returns common data for click and touches.  
