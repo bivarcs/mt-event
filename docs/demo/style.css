@@ -1,0 +1,29 @@
+.a {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.a1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 16/9;
+  background-color: #475569;
+  color: #fff;
+  font-weight: 700;
+  user-select: none;
+}
+
+@media screen and (max-width: 479px) {
+  .a1 {
+    width: 51%;
+  }
+}
+
+.b {
+  box-sizing: border-box;
+  width: 100%;
+  height: 240px;
+}

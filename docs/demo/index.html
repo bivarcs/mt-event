@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="./style.css">
+  <title>MTEvent demo</title>
+  <script src="https://unpkg.com/@bivarcs/mt-event/dist/js/parseMTEvent.min.js"></script>
+</head>
+
+<body>
+  <h1>MTEvent demo</h1>
+  <p>Please check JS console logs.</p>
+  <p>Please refer to the README. (<a href="https://github.com/bivarcs/mt-event">https://github.com/bivarcs/mt-event</a>)
+  </p>
+
+  <h2>Target</h2>
+  <p>Please touch with the pointer.</p>
+  <div class="a">
+    <div class="a1" id="pointerdown">mousedown/touchstart</div>
+    <div class="a1" id="pointermove">mousemove/touchmove</div>
+  </div>
+
+  <h2>Log</h2>
+  <p>Check the detailed log with devtool.</p>
+  <div>
+    <textarea class="b"></textarea>
+  </div>
+
+  <h2>Code</h2>
+  <p>The code you are running.</p>
+  <script src="https://gist.github.com/bivarcs/3063b4cba6dc5b59c029b1da94e9cc85.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
