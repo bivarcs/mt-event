@@ -1,0 +1,22 @@
+{
+  "entryPoints": [
+    "src/js/types/types.ts",
+    "src/js/parse/function.ts"
+  ],
+  "navigationLinks": {
+    "Github": "https://github.com/bivarcs/mt-event",
+    "Demo": "https://bivarcs.github.io/mt-event/demo/"
+  },
+  "sidebarLinks": {
+    "Github": "https://github.com/bivarcs/mt-event",
+    "Demo": "https://bivarcs.github.io/mt-event/demo/"
+  },
+  "sourceLinkTemplate": "https://github.com/bivarcs/mt-event/blob/main/{path}#L{line}",
+  "out": "./docs/docs",
+  "visibilityFilters": {
+    "protected": true,
+    "private": true,
+    "inherited": true,
+    "external": true,
+  }
+}
