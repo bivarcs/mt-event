@@ -16,7 +16,53 @@
 <a href="#mt-event" id="mt-event" style="color: inherit; text-decoration: none;">
   <h1>mt-event</h1>
 </a>
+<p><img src="https://img.shields.io/npm/types/@bivarcs/mt-event" alt="">
+<img src="https://img.shields.io/node/v/@bivarcs/mt-event" alt="">
+<img src="https://img.shields.io/github/license/bivarcs/mt-event" alt=""></p>
 <p>A minimal function to get common values from mouse and touch events.</p>
+
+<a href="#demo" id="demo" style="color: inherit; text-decoration: none;">
+  <h2>Demo</h2>
+</a>
+<p><a href="https://bivarcs.github.io/mt-event/demo/">https://bivarcs.github.io/mt-event/demo/</a></p>
+
+<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+  <h2>Installation</h2>
+</a>
+
+<a href="#package-manager" id="package-manager" style="color: inherit; text-decoration: none;">
+  <h3>Package Manager</h3>
+</a>
+<p>npm: <code>npm i @bivarcs/emitter</code><br>yarn: <code>yarn add @bivarcs/emitter</code>  </p>
+
+<a href="#cdn" id="cdn" style="color: inherit; text-decoration: none;">
+  <h3>CDN</h3>
+</a>
+<pre><code class="language-js"><span class="hl-0">&lt;</span><span class="hl-1">script</span><span class="hl-2"> </span><span class="hl-3">src</span><span class="hl-2">=</span><span class="hl-4">&quot;https://unpkg.com/@bivarcs/mt-event/dist/js/parseMTEvent.min.js&quot;</span><span class="hl-0">&gt;&lt;/</span><span class="hl-1">script</span><span class="hl-0">&gt;</span>
+</code></pre>
+
+<a href="#document" id="document" style="color: inherit; text-decoration: none;">
+  <h2>Document</h2>
+</a>
+<ul>
+<li><a href="https://bivarcs.github.io/mt-event/docs/">API Documentation</a> (via: <a href="https://github.com/TypeStrong/typedoc">Typedoc</a>)</li>
+</ul>
+
+<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+  <h2>Usage</h2>
+</a>
+<pre><code class="language-typescript"><span class="hl-5">addEventListener</span><span class="hl-2">((</span><span class="hl-6">event</span><span class="hl-2">: </span><span class="hl-7">MouseEvent</span><span class="hl-2"> | </span><span class="hl-7">TouchEvent</span><span class="hl-2">) </span><span class="hl-8">=&gt;</span><span class="hl-2"> {</span><br/><span class="hl-2">  </span><span class="hl-8">const</span><span class="hl-2"> </span><span class="hl-9">parsedEvent</span><span class="hl-2"> = </span><span class="hl-5">parseMTEvent</span><span class="hl-2">(</span><span class="hl-6">event</span><span class="hl-2">);</span><br/><br/><span class="hl-2">  </span><span class="hl-6">console</span><span class="hl-2">.</span><span class="hl-5">log</span><span class="hl-2">(</span><span class="hl-6">parsedEvent</span><span class="hl-2">);</span><br/><span class="hl-2">});</span><br/><br/><span class="hl-10">/*</span><br/><span class="hl-10">You can get.</span><br/><span class="hl-10">{</span><br/><span class="hl-10">  clientX: 0,</span><br/><span class="hl-10">  clientY: 0,</span><br/><span class="hl-10">  event: Object,  // original event</span><br/><span class="hl-10">  pageX: 0,</span><br/><span class="hl-10">  pageY: 0,</span><br/><span class="hl-10">  type: 1,  // 1=mouse, 2=touch</span><br/><span class="hl-10">  screenX: 0,</span><br/><span class="hl-10">  screenY: 0,</span><br/><span class="hl-10">}</span><br/><span class="hl-10">*/</span>
+</code></pre>
+<p>Usually used like this:</p>
+<pre><code class="language-typescript"><span class="hl-11">import</span><span class="hl-2"> { </span><span class="hl-6">parse</span><span class="hl-2"> </span><span class="hl-11">as</span><span class="hl-2"> </span><span class="hl-6">parseMTEvent</span><span class="hl-2"> } </span><span class="hl-11">from</span><span class="hl-2"> </span><span class="hl-4">&quot;src/js/parse&quot;</span><br/><br/><span class="hl-5">addEventListener</span><span class="hl-2">((</span><span class="hl-6">event</span><span class="hl-2">: </span><span class="hl-7">MouseEvent</span><span class="hl-2"> | </span><span class="hl-7">TouchEvent</span><span class="hl-2">) </span><span class="hl-8">=&gt;</span><span class="hl-2"> {</span><br/><span class="hl-2">  </span><span class="hl-8">const</span><span class="hl-2"> </span><span class="hl-9">parsedEvent</span><span class="hl-2"> = </span><span class="hl-5">parseMTEvent</span><span class="hl-2">(</span><span class="hl-6">event</span><span class="hl-2">);</span><br/><span class="hl-2">  </span><span class="hl-6">console</span><span class="hl-2">.</span><span class="hl-5">log</span><span class="hl-2">(</span><span class="hl-6">parsedEvent</span><span class="hl-2">);</span><br/><span class="hl-2">});</span>
+</code></pre>
+
+<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+  <h2>License</h2>
+</a>
+<p>MTEvent is available under the <a href="LICENSE.md">MIT license</a>.</p>
+<p>The license is MIT for convenience.
+Anyone can write the code, so write it yourself. (In that case, the license is free.)</p>
 </div></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <nav id="tsd-sidebar-links" class="tsd-navigation"><a href="https://github.com/bivarcs/mt-event" target="_blank">Github</a><a href="https://bivarcs.github.io/mt-event/demo/" target="_blank">Demo</a></nav>
@@ -40,8 +86,8 @@
 <ul>
 <li class="current selected"><a href="modules.html">@bivarcs/mt-<wbr/>event</a>
 <ul>
-<li class="tsd-kind-module"><a href="modules/parse_function.html">parse/function</a></li>
-<li class="tsd-kind-module"><a href="modules/types_types.html">types/types</a></li></ul></li></ul></div></details></nav></div></div>
+<li class="tsd-kind-module"><a href="modules/parse.html">parse</a></li>
+<li class="tsd-kind-module"><a href="modules/types.html">types</a></li></ul></li></ul></div></details></nav></div></div>
 <div class="container tsd-generator">
 <p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
 <div class="overlay"></div><script src="assets/main.js"></script></body></html>
