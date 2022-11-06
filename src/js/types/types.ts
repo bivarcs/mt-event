@@ -1,7 +1,7 @@
 /**
  * original event. (mouse or touch)
  */
-export type OriginalEvent = MouseEvent | TouchEvent | PointerEvent;
+export type OriginalEvent = MouseEvent | TouchEvent;
 
 /**
  * original event type.  
