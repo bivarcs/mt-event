@@ -28,7 +28,7 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@types/node": "^18.11.9",
     "babel-loader": "^9.0.1",
-    "esbuild": "^0.15.12",
+    "esbuild": "^0.16.16",
     "jsdoc": "^4.0.0",
     "rollup": "^2.79.0",
     "rollup-plugin-dts": "^4.2.2",
